@@ -12,7 +12,7 @@ public class LionAlex extends Lion {
     }
 
     public List<String> getFriends() {
-        return friends;
+        return List.copyOf(friends);
     }
 
     public String getPlaceOfLiving() {
